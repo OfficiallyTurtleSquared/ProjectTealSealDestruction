@@ -27,6 +27,16 @@ namespace ProjectTealSealDestruction
                 outputTextBox.Text = encryptprocess;
                 outputTextBox.Update();
             }
+            if (typeCombo.Text == "DES")
+            {
+                string makekey = EncryptProvider.CreateDesKey();
+                var encryptprocess = EncryptProvider.DESEncrypt(inputTextBox.ToString(), makekey);
+                keyTextBox.Text = makekey.ToString();
+                outputTextBox.Text = encryptprocess;
+                outputTextBox.Update();
+                keyTextBox.Update();
+            }
+            
         }
 
         private void decryptButton_Click(object sender, EventArgs e)
@@ -35,6 +45,13 @@ namespace ProjectTealSealDestruction
             if (typeCombo.Text == "SHA256")
             {
                 outputTextBox.Text = "That's fucking impossible you cuntface";
+                outputTextBox.Update();
+            }
+            if (typeCombo.Text == "DES")
+            {
+                string makekey = keyTextBox.Text;
+                var encryptprocess = EncryptProvider.DESDecrypt(inputTextBox.ToString(), makekey);
+                outputTextBox.Text = encryptprocess;
                 outputTextBox.Update();
             }
         }

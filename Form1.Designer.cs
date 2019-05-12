@@ -37,6 +37,8 @@
             this.encryptButton = new System.Windows.Forms.Button();
             this.decryptButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.keyLabel = new System.Windows.Forms.Label();
+            this.keyTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // inputTextBox
@@ -49,7 +51,7 @@
             // inputLabel
             // 
             this.inputLabel.AutoSize = true;
-            this.inputLabel.Location = new System.Drawing.Point(9, 8);
+            this.inputLabel.Location = new System.Drawing.Point(9, 13);
             this.inputLabel.Name = "inputLabel";
             this.inputLabel.Size = new System.Drawing.Size(34, 13);
             this.inputLabel.TabIndex = 1;
@@ -59,7 +61,8 @@
             // 
             this.typeCombo.FormattingEnabled = true;
             this.typeCombo.Items.AddRange(new object[] {
-            "SHA256"});
+            "SHA256",
+            "DES"});
             this.typeCombo.Location = new System.Drawing.Point(266, 5);
             this.typeCombo.Name = "typeCombo";
             this.typeCombo.Size = new System.Drawing.Size(121, 21);
@@ -84,7 +87,7 @@
             // outputLabel
             // 
             this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(12, 66);
+            this.outputLabel.Location = new System.Drawing.Point(9, 76);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(42, 13);
             this.outputLabel.TabIndex = 5;
@@ -120,13 +123,31 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // keyLabel
+            // 
+            this.keyLabel.AutoSize = true;
+            this.keyLabel.Location = new System.Drawing.Point(9, 127);
+            this.keyLabel.Name = "keyLabel";
+            this.keyLabel.Size = new System.Drawing.Size(74, 13);
+            this.keyLabel.TabIndex = 9;
+            this.keyLabel.Text = "Key (optional):";
+            // 
+            // keyTextBox
+            // 
+            this.keyTextBox.Location = new System.Drawing.Point(12, 143);
+            this.keyTextBox.Name = "keyTextBox";
+            this.keyTextBox.Size = new System.Drawing.Size(776, 20);
+            this.keyTextBox.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(800, 205);
+            this.ClientSize = new System.Drawing.Size(800, 218);
+            this.Controls.Add(this.keyTextBox);
+            this.Controls.Add(this.keyLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.decryptButton);
             this.Controls.Add(this.encryptButton);
@@ -157,6 +178,8 @@
         private System.Windows.Forms.Button encryptButton;
         private System.Windows.Forms.Button decryptButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label keyLabel;
+        private System.Windows.Forms.TextBox keyTextBox;
     }
 }
 
