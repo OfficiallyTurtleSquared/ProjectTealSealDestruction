@@ -1,0 +1,13 @@
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\bin\Release\ProjectTealSealDestruction.exe.config
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\bin\Release\ProjectTealSealDestruction.exe
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\bin\Release\ProjectTealSealDestruction.pdb
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\bin\Release\Newtonsoft.Json.xml
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.csprojAssemblyReference.cache
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.Form1.resources
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.Properties.Resources.resources
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.csproj.GenerateResource.cache
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.csproj.CoreCompileInputs.cache
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.csproj.Fody.CopyLocal.cache
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.csproj.CopyComplete
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.exe
+C:\Users\TurtleSquared\Documents\Visual Studio 2017\Projects\ProjectTealSealDestruction\ProjectTealSealDestruction\obj\Release\ProjectTealSealDestruction.pdb
