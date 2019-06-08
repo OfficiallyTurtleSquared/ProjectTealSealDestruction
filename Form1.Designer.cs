@@ -61,7 +61,7 @@
             // 
             this.typeCombo.FormattingEnabled = true;
             this.typeCombo.Items.AddRange(new object[] {
-            "SHA256",
+            "SHA512",
             "DES"});
             this.typeCombo.Location = new System.Drawing.Point(266, 5);
             this.typeCombo.Name = "typeCombo";

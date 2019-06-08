@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,10 +22,9 @@ namespace ProjectTealSealDestruction
         private void encryptButton_Click(object sender, EventArgs e)
         {
             outputTextBox.Clear();
-            if (typeCombo.Text == "SHA256")
+            if (typeCombo.Text == "SHA512")
             {
-                var encryptprocess = EncryptProvider.Sha256(inputTextBox.ToString());
-                outputTextBox.Text = encryptprocess;
+                outputTextBox.Text = EncryptProvider.Sha512(inputTextBox.Text);
                 outputTextBox.Update();
             }
             if (typeCombo.Text == "DES")
@@ -42,7 +42,7 @@ namespace ProjectTealSealDestruction
         private void decryptButton_Click(object sender, EventArgs e)
         {
             outputTextBox.Clear();
-            if (typeCombo.Text == "SHA256")
+            if (typeCombo.Text == "SHA512")
             {
                 outputTextBox.Text = "That's fucking impossible you cuntface";
                 outputTextBox.Update();
